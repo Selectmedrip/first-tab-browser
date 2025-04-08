@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .input-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .input {
+        width: 100%;
+        max-width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .switch {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .card.wallet {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .overlay {
+        display: none;
+    }
+}
